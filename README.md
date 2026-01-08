@@ -1,71 +1,71 @@
 # 🚗 BMW Sales Insights Dashboard  
-### Power BI | Data Analytics | Business Intelligence
+### Advanced Power BI Analytics Project
 
-An interactive and executive-level **Power BI dashboard** designed to analyze **BMW car sales performance** across multiple years, countries, and sales channels, with a strong focus on **KPIs, trends, growth analysis, and decision-making insights**.
-
----
-
-## 📌 Project Highlights
-
-✔ Advanced **DAX Measures**  
-✔ **SVG Sparklines** using Image URL  
-✔ Year-over-Year **Growth Analysis**  
-✔ Clean, modern, and executive-ready design  
-✔ Optimized for performance and readability  
+A full-scale **Business Intelligence & Data Analytics project** built using **Power BI**, focused on analyzing **BMW car sales performance** across multiple years, countries, and sales channels.  
+The dashboard is designed to support **executive decision-making** through clear KPIs, trends, and advanced DAX-driven insights.
 
 ---
 
-## 🖼 Dashboard Preview
+## 📍 Project Purpose
 
-### 🔹 KPI & Overview Dashboard
-![Overview Dashboard](https://github.com/Abdo-3ssam/Cars-analytics/blob/main/Cars-Dashboard-Overview.png)
+The main goal of this project is to:
+
+- Transform raw sales data into **actionable business insights**
+- Track **Year-over-Year performance**
+- Identify **top-performing models, markets, and channels**
+- Present insights through a **clean, executive-ready dashboard**
+
+This project simulates a **real-world automotive sales reporting system** used by decision makers.
 
 ---
 
-### 🔹 KPI Comparison & Trends
-![Overview Dashboard 2](https://github.com/Abdo-3ssam/Cars-analytics/blob/main/Cars-Dashboard-Overview%202.png)
+## 🧠 Business Questions Answered
+
+✔ How is total revenue performing compared to last year?  
+✔ Which countries generate the highest sales?  
+✔ Which BMW models contribute the most revenue?  
+✔ How do sales channels perform (Online vs Dealership vs Wholesale)?  
+✔ Are quarterly sales improving or declining?  
+✔ What is the average selling price trend over time?  
 
 ---
 
-### 🔹 Sales Performance Dashboard
+## 🖼 Dashboard Screenshots
+
+### 🔹 Executive KPI Overview
+![Dashboard Overview](https://github.com/Abdo-3ssam/Cars-analytics/blob/main/Cars-Dashboard-Overview.png)
+
+---
+
+### 🔹 Revenue & KPI Comparison
+![Dashboard Overview 2](https://github.com/Abdo-3ssam/Cars-analytics/blob/main/Cars-Dashboard-Overview%202.png)
+
+---
+
+### 🔹 Sales Performance Analysis
 ![Sales Dashboard](https://github.com/Abdo-3ssam/Cars-analytics/blob/main/Cars-Sales-Dashboard.png)
-
----
-
-## 🚀 Dashboard Overview
-
-This dashboard provides a comprehensive and interactive view of:
-
-- 📈 **Revenue vs Previous Year Revenue**
-- 📦 **Quarter Sold (Qtr Sold) Performance**
-- 📊 **Year-over-Year Growth %**
-- 🌍 **Country-wise Sales Distribution**
-- 🏬 **Sales Channels Analysis**
-  - Online
-  - Dealership
-  - Wholesale
-- 🚗 **Top BMW Models**
-- 💰 **Average Vehicle Price**
-- 📉 **Trend Analysis using Sparklines**
 
 ---
 
 ## 📊 Key KPIs
 
+The dashboard dynamically calculates and visualizes the following KPIs:
+
 - **Total Revenue**
 - **Previous Year Revenue (PY)**
+- **Revenue Variance**
 - **Revenue Growth %**
 - **Quarter Sold**
 - **Quarter Sold Growth %**
 - **Average Price per Vehicle**
 
-All KPIs dynamically respond to slicers and date selections.
+All KPIs respond instantly to slicers and filters.
 
 ---
 
-## 🧮 DAX Measures & Calculations
+## 🧮 DAX Measures & Logic
 
-### 🔹 Core Measures
+### 🔹 Revenue & Sales Metrics
 - `Revenue`
 - `Revenue Previous Year`
 - `Revenue Variance`
@@ -76,23 +76,24 @@ All KPIs dynamically respond to slicers and date selections.
 - `Qtr Sold Growth`
 
 ### 🔹 Advanced DAX Techniques
-- SVG **Line & Area Sparklines**
-- Conditional **Up / Down Arrows (▲ ▼)** using `UNICHAR`
+- SVG **Line & Area Sparklines** using Image URL
+- Conditional **Up / Down Growth Arrows** using `UNICHAR`
 - Dynamic **Selected Period Labels**
-- Currency formatting and KPI styling
+- Custom currency formatting
+- Time Intelligence using `DATEADD`
 
 ---
 
-## 🎨 Visualization & UX Features
+## 📈 Visual & UX Design
 
-- Custom **SVG Sparklines** (Pure DAX)
-- Opaque area charts with gradient fills
-- Conditional growth indicators
+- Executive-level **KPI cards**
+- Custom-built **SVG Sparklines (Pure DAX)**
+- Opaque area charts with gradients
 - Interactive slicers:
   - Year
   - Month
   - Weekday
-- Clean executive-friendly UI
+- Clean, minimal, and professional UI
 
 ---
 
@@ -101,31 +102,62 @@ All KPIs dynamically respond to slicers and date selections.
 - **Power BI**
 - **DAX**
 - **SVG (Image URL Measures)**
-- **Time Intelligence**
 - **Data Modeling**
+- **Time Intelligence**
+- **Business Intelligence Concepts**
 
 ---
 
-## 📅 Date Coverage
+## 🗂 Data Model Overview
+
+- **Fact Table**
+  - Sales transactions
+  - Quantity sold
+  - Total revenue
+- **Date Table**
+  - Year
+  - Quarter
+  - Month
+  - Weekday
+- **Dimensions**
+  - Country
+  - BMW Model
+  - Sales Channel
+
+---
+
+## 📅 Data Coverage
 
 **January 1, 2019 – December 31, 2023**
 
 ---
 
+## 🎯 Use Cases
+
+- Executive sales reporting
+- Automotive performance tracking
+- Portfolio project for BI / Data Analyst roles
+- Learning reference for advanced Power BI & DAX
+
+---
+
 ## 👤 Author
 
-**Abdulrahman Alzahrani**  
+**Abdulrahman Essam**  
 📊 Data Analyst | Business Intelligence  
-🛠 Power BI • SQL • Excel  
+🛠 Power BI • DAX • SQL • Excel  
 
 ---
 
-## ⭐ Notes
+## ⭐ Notes & Recommendations
 
-- All sparklines are built using **pure DAX + SVG**
-- Dashboard is optimized for storytelling and business insights
-- Suitable for **portfolio, CV, and LinkedIn showcase**
+- All sparklines are created using **pure DAX + SVG**
+- Dashboard is optimized for performance and scalability
+- Ideal for showcasing **advanced Power BI skills**
+- Suitable for **corporate-level reporting**
 
 ---
 
-⭐ If you like this project, feel free to **star the repository** or **fork it for learning purposes**.
+⭐ If you find this project useful, feel free to **star the repository**  
+🔁 Fork it to explore or extend the analysis further
+
